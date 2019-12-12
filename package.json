@@ -28,7 +28,9 @@
     "build-ext": "npm run build && ./bin/chrome_ext.sh",
     "package": "electron-forge package",
     "make": "electron-forge make",
-    "dist-electron": "build"
+    "dist-electron": "build",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "engines": {
     "node": ">= 6.9.1 < 9.0.0"
@@ -84,7 +86,8 @@
     "to-snake-case": "^1.0.0",
     "uuid": "^3.1.0",
     "valid-url": "^1.0.9",
-    "zone.js": "^0.8.20"
+    "zone.js": "^0.8.20",
+    "snyk": "^1.258.2"
   },
   "devDependencies": {
     "@types/electron": "^1.4.38",
@@ -121,5 +124,6 @@
   },
   "bugs": {
     "url": "https://github.com/imolorhe/altair/issues"
-  }
+  },
+  "snyk": true
 }
