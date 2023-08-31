@@ -1,0 +1,124 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - '@angular/cli > less > request > extend':
+        patched: '2023-08-31T00:15:49.671Z'
+        id: 'npm:extend:20180424'
+        path: '@angular/cli > less > request > extend'
+    - '@angular/cli > node-sass > request > extend':
+        patched: '2023-08-31T00:15:49.671Z'
+        id: 'npm:extend:20180424'
+        path: '@angular/cli > node-sass > request > extend'
+    - '@angular/cli > node-sass > node-gyp > request > extend':
+        patched: '2023-08-31T00:15:49.671Z'
+        id: 'npm:extend:20180424'
+        path: '@angular/cli > node-sass > node-gyp > request > extend'
+    - '@angular/compiler-cli > chokidar > fsevents > node-pre-gyp > request > extend':
+        patched: '2023-08-31T00:15:49.671Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          @angular/compiler-cli > chokidar > fsevents > node-pre-gyp > request >
+          extend
+    - '@angular/cli > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend':
+        patched: '2023-08-31T00:15:49.671Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          @angular/cli > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > extend
+  'npm:hoek:20180212':
+    - '@angular/cli > node-sass > node-gyp > request > hawk > hoek':
+        patched: '2023-08-31T00:15:49.671Z'
+        id: 'npm:hoek:20180212'
+        path: '@angular/cli > node-sass > node-gyp > request > hawk > hoek'
+    - '@angular/cli > node-sass > node-gyp > request > hawk > boom > hoek':
+        patched: '2023-08-31T00:15:49.671Z'
+        id: 'npm:hoek:20180212'
+        path: '@angular/cli > node-sass > node-gyp > request > hawk > boom > hoek'
+    - '@angular/cli > node-sass > node-gyp > request > hawk > sntp > hoek':
+        patched: '2023-08-31T00:15:49.671Z'
+        id: 'npm:hoek:20180212'
+        path: '@angular/cli > node-sass > node-gyp > request > hawk > sntp > hoek'
+    - '@angular/cli > node-sass > node-gyp > request > hawk > cryptiles > boom > hoek':
+        patched: '2023-08-31T00:15:49.671Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @angular/cli > node-sass > node-gyp > request > hawk > cryptiles >
+          boom > hoek
+    - '@angular/compiler-cli > chokidar > fsevents > node-pre-gyp > hawk > hoek':
+        patched: '2023-08-31T00:15:49.671Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @angular/compiler-cli > chokidar > fsevents > node-pre-gyp > hawk >
+          hoek
+    - '@angular/compiler-cli > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek':
+        patched: '2023-08-31T00:15:49.671Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @angular/compiler-cli > chokidar > fsevents > node-pre-gyp > hawk >
+          boom > hoek
+    - '@angular/compiler-cli > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek':
+        patched: '2023-08-31T00:15:49.671Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @angular/compiler-cli > chokidar > fsevents > node-pre-gyp > hawk >
+          sntp > hoek
+    - '@angular/cli > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > hoek':
+        patched: '2023-08-31T00:15:49.671Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @angular/cli > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > hawk > hoek
+    - '@angular/cli > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek':
+        patched: '2023-08-31T00:15:49.671Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @angular/cli > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > hawk > boom > hoek
+    - '@angular/cli > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek':
+        patched: '2023-08-31T00:15:49.671Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @angular/cli > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > hawk > sntp > hoek
+  SNYK-JS-LODASH-567746:
+    - '@angular/cli > node-sass > sass-graph > lodash':
+        patched: '2023-08-31T00:15:49.671Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@angular/cli > node-sass > sass-graph > lodash'
+    - '@angular/cli > node-sass > gaze > globule > lodash':
+        patched: '2023-08-31T00:15:49.671Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@angular/cli > node-sass > gaze > globule > lodash'
+  'npm:stringstream:20180511':
+    - '@angular/cli > less > request > stringstream':
+        patched: '2023-08-31T00:15:49.671Z'
+        id: 'npm:stringstream:20180511'
+        path: '@angular/cli > less > request > stringstream'
+    - '@angular/cli > node-sass > request > stringstream':
+        patched: '2023-08-31T00:15:49.671Z'
+        id: 'npm:stringstream:20180511'
+        path: '@angular/cli > node-sass > request > stringstream'
+    - '@angular/cli > node-sass > node-gyp > request > stringstream':
+        patched: '2023-08-31T00:15:49.671Z'
+        id: 'npm:stringstream:20180511'
+        path: '@angular/cli > node-sass > node-gyp > request > stringstream'
+    - '@angular/compiler-cli > chokidar > fsevents > node-pre-gyp > request > stringstream':
+        patched: '2023-08-31T00:15:49.671Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          @angular/compiler-cli > chokidar > fsevents > node-pre-gyp > request >
+          stringstream
+    - '@angular/cli > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream':
+        patched: '2023-08-31T00:15:49.671Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          @angular/cli > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > stringstream
+  'npm:tunnel-agent:20170305':
+    - '@angular/cli > node-sass > request > tunnel-agent':
+        patched: '2023-08-31T00:15:49.671Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: '@angular/cli > node-sass > request > tunnel-agent'
