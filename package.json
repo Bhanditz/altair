@@ -28,7 +28,9 @@
     "build-ext": "npm run build && ./bin/chrome_ext.sh",
     "package": "electron-forge package",
     "make": "electron-forge make",
-    "dist-electron": "build"
+    "dist-electron": "build",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "engines": {
     "node": ">= 6.9.1 < 9.0.0"
@@ -36,7 +38,7 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "^5.2.0",
-    "@angular/cli": "^1.6.3",
+    "@angular/cli": "^6.0.0",
     "@angular/common": "^5.2.0",
     "@angular/compiler": "^5.2.0",
     "@angular/compiler-cli": "^5.2.0",
@@ -84,7 +86,8 @@
     "to-snake-case": "^1.0.0",
     "uuid": "^3.1.0",
     "valid-url": "^1.0.9",
-    "zone.js": "^0.8.20"
+    "zone.js": "^0.8.20",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/electron": "^1.4.38",
@@ -121,5 +124,6 @@
   },
   "bugs": {
     "url": "https://github.com/imolorhe/altair/issues"
-  }
+  },
+  "snyk": true
 }
